@@ -1,33 +1,104 @@
-.App {
-  text-align: center;
+.page-layout{
+  height: 48rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.just-test{
+  background-color:black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.coupon-form{
+  min-height: 32rem;
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.date-validation{
+  width: 100%;
+  display:flex;
   color: white;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.date-validation input{
+  width: 50%;
+  height: 50px;
+  border-radius: 6px;
+  background-color: #494949;
+  border:0;
+}
+.start-date{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.end-date{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+
+.coupon-form input{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  height: 50px;
+  border-radius: 6px;
+  background-color: #494949;
+  border:0;
+}
+.form-pair{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.date-validation input{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  height: 50px;
+  border-radius: 6px;
+  background-color: #494949;
+  border:0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+   input::-webkit-input-placeholder {
+    color: #ffffff !important;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+    opacity: 0.40;
+    }
+.submit{
+  width: 366px;
+  height: 50px;
+  border-radius: 2px;
+  background-image: linear-gradient(to bottom, #c9ab39, #6f5902);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: floralwhite;
+}
+  
+.submit-layout{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
 }
